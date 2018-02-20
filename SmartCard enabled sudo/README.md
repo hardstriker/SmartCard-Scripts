@@ -1,5 +1,7 @@
 # SmartCard only for 'sudo' command
 
+Mac OS X Sierra 10.12.6 and above has this enabled by default.
+
 The following package will complete the following two items when pushed out with Jamf Pro:
 
 1. Use the following command to backup the current 'sudo' settings as a pre-install script:
