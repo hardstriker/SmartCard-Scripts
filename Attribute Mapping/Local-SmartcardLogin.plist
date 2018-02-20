@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttributeMapping</key>
+	<dict>
+          <key>fields</key>
+          <array>
+               <string>Common Name</string>
+               <string>RFC 822 Name</string>
+          </array>
+          <key>formatString</key>
+          <string>$2-$1</string>
+          <key>dsAttributeString</key>
+          <string>dsAttrTypeNative:longName</string>
+     </dict>
+</dict>
+</plist>
