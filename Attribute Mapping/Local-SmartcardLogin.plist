@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>AttributeMapping</key>
-	<dict>
-          <key>fields</key>
-          <array>
-               <string>Common Name</string>
-               <string>RFC 822 Name</string>
-          </array>
-          <key>formatString</key>
-          <string>$2-$1</string>
-          <key>dsAttributeString</key>
-          <string>dsAttrTypeNative:longName</string>
-     </dict>
+	    <dict>
+	         <key>fields</key>
+	         <array>
+	               <string>NT Principal Name</string>
+	         </array>
+	         <key>formatString</key>
+	         	<string>\$1</string>
+	         <key>dsAttributeString</key>
+	        	 <string>dsAttrTypeNative:userPrincipalName</string>
+	    </dict>
 </dict>
 </plist>
