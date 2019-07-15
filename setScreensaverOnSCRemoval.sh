@@ -40,6 +40,8 @@
 # Make available Offline
 #
 # Used in Mac OS X 10.12 and higher
+#
+# This setting is now built into Jamf Pro 10.12 as a configuration profile key within the Smartcard payload.
 ######
 
 curUser=$(ls -l /dev/console | cut -d " " -f 4)
